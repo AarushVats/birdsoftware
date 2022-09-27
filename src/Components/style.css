@@ -68,7 +68,7 @@
 #signup {
     margin-left: 50px;
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -297,7 +297,7 @@ input[type="password"] {
 /* Large desktop */
 @media  (max-width : 1080px) {
     #signup {
-        height: 100vh;
+        height: fit-content;
     }
 
     .s-details h5 {
@@ -390,7 +390,7 @@ input[type="password"] {
     }
 
     #signup {
-        height: 100vh;
+        height: fit-content;
     }
 
     .s-details h5 {
@@ -439,7 +439,7 @@ input[type="password"] {
     }
 
     #signup {
-        height: 100vh;
+        height: fit-content;
     }
 
     .t-text {
