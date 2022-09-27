@@ -1,0 +1,485 @@
+/* fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body page css */
+.main {
+    position: relative;
+    background: linear-gradient(90deg, #141E30 0%, #243B55 100%);
+}
+
+
+.s-title {
+    width: 313px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.t-text h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    color: white;
+}
+
+.s-details h5 {
+    margin-top: 20px;
+    width: 28rem;
+    height: 43px;
+    left: 3px;
+    top: 416px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+#about-comp {
+    margin: 5rem 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 30vw;
+}
+
+.signup-page {
+    display: flex;
+}
+
+/* logo css */
+.logo {
+    background: url('./img/Logo.png');
+    width: 299px;
+    height: 337px;
+}
+
+
+#signup {
+    margin-left: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+/* signup -form css */
+
+.langauge {
+    position: absolute;
+    top: 22px;
+    right: 50px;
+}
+
+.formhead {
+    display: flex;
+    flex-direction: column;
+    margin: 115px 20px 0px 120px;
+
+}
+
+.formtitle {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #45586B;
+}
+
+.formdetail {
+    margin-top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* or 156% */
+    display: flex;
+    align-items: center;
+
+    color: #8692A6;
+}
+
+
+
+
+
+
+/* form input */
+.forminput {
+    margin: 40px 0px 0px 160px;
+    width: 40vw;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+}
+
+.data {
+    margin: 30px 0px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    outline: none;
+}
+
+input::placeholder {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+input[type="email"] {
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+input[type="password"] {
+    font-size: 17px;
+    font-family: 'Poppins';
+}
+
+.btn {
+    width: 271px;
+    height: 40px;
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 6rem 16rem;
+
+}
+
+
+
+/*  verification page css */
+.v-logo {
+    width: 250px;
+    height: 250px;
+    background: url('./img/Logo.png');
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    width: 74vw;
+    margin: -7rem 17rem;
+    height: 35px;
+    left: 275px;
+    top: 118px;
+    color: white;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    width: 75rem;
+    align-items: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid white;
+    margin: 0 12px;
+
+}
+.headline hr{
+    color: white;
+}
+.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+
+}
+
+.lang {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.welcome {
+
+    width: 71vw;
+    height: 35px;
+    margin-top: 13rem;
+    margin-left: 18rem;
+    color: white;
+
+}
+
+.wel-msg {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    /* padding-left: 80px; */
+
+}
+
+.ramaera {
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.e-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 35rem;
+
+}
+
+.box {
+    margin: 4rem;
+    background: url('./img/icon-park_email-down.png');
+    width: 346px;
+    height: 200px
+}
+
+.btn-2 {
+    box-sizing: border-box;
+
+    width: 234px;
+    height: 54px;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.verify-page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 1300px){
+    #signup{
+        height: fit-content;
+    }
+}
+/* Large desktop */
+@media  (max-width : 1080px) {
+    #signup {
+        height: 100vh;
+    }
+
+    .s-details h5 {
+        width: 22rem;
+    }
+
+    .formhead {
+        margin: 70px 20px 0px 55px;
+    }
+
+    #formtitle {
+        font-size: 25px;
+        width: 25rem;
+    }
+
+    .formdetail {
+        font-size: 12px;
+        width: 21rem;
+    }
+
+    .forminput {
+        width: 25rem;
+        margin: 5px 0px 0px 62px;
+    }
+
+    .btn {
+        width: 10rem;
+        margin: 5rem 8rem;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 999px) {
+    #signup {
+        height: 100vh;
+    }
+
+    .s-details h5 {
+        width: 22rem;
+    }
+
+    .formhead {
+        margin: 70px 20px 0px 55px;
+    }
+
+    #formtitle {
+        font-size: 25px;
+        width: 25rem;
+    }
+
+    .formdetail {
+        font-size: 12px;
+        width: 21rem;
+    }
+
+    .forminput {
+        width: 20rem;
+        margin: 5px 0px 0px 62px;
+    }
+
+    .btn {
+        width: 10rem;
+        margin: 5rem 0 0px 8rem;
+    }
+    .v-logo{
+        margin: 0px 18px;
+    }
+    .headline{
+        margin: 9rem -14rem;
+        width: fit-content;
+    }
+    .lang{
+        display: none;
+    }
+    .welcome {
+        margin-top: 20rem;
+        margin-left: 3rem;
+    }
+
+    .e-box {
+        margin: 10rem 13rem;
+    }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #about-comp {
+        margin: 5rem 5rem;
+    }
+
+    #signup {
+        height: 100vh;
+    }
+
+    .s-details h5 {
+        width: 22rem;
+    }
+
+    .formhead {
+        margin: 70px 20px 0px 55px;
+    }
+
+    #formtitle {
+        font-size: 25px;
+        width: 25rem;
+    }
+
+    .formdetail {
+        font-size: 12px;
+        width: 20rem;
+        line-height: 17px;
+    }
+
+    .forminput {
+        width: 18rem;
+        margin: 5px 0px 0px 62px;
+    }
+
+    .btn {
+        width: 10rem;
+        margin: 2rem 8rem;
+    }
+
+    .data {
+        margin: 25px 0px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 748px) {
+    .signup-page {
+        flex-direction: column;
+        margin: -50px;
+    }
+
+    #about-comp {
+        margin: 5rem 10rem;
+    }
+
+    #signup {
+        height: 100vh;
+    }
+
+    .t-text {
+        padding: 15px;
+    }
+
+    .s-details h5 {
+        width: 22rem;
+    }
+
+    .form {
+        margin: -10px;
+    }
+
+    .formhead {
+        margin: 70px 20px 0px 55px;
+    }
+
+    #formtitle {
+        font-size: 25px;
+        width: 25rem;
+    }
+
+    .formdetail {
+        font-size: 12px;
+        width: 20rem;
+        line-height: 17px;
+    }
+
+    .forminput {
+        width: 18rem;
+        margin: 5px 0px 0px 62px;
+    }
+
+    .btn {
+        width: 10rem;
+        margin: 6rem 8rem;
+    }
+
+    .data {
+        margin: 30px 0px;
+    }
+}
